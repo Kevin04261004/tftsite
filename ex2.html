@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+    function nightday(self)
+{
+  var target = document.querySelector('body');
+    if(self.value === 'night')
+    {
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    self.value = 'day';
+    }
+    else if (self.value === 'day')
+    {
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    self.value = 'night';
+    }
+}
+    </script>
+
+  </head>
+<body>
+
+<input id="night_day" type="button" value="night" onclick="
+nightday(this);
+">
+
+<p>hihihihiihiih</p>
+<div><a href="패치노트.html">패치노트</a></div>
+
+
+<script type="text/javascript">
+  var kk = ["1","2","3"]
+
+document.write(kk.length);
+  document.write(kk[0]);
+</script>
+<br><br>
+
+
+<script type="text/javascript">
+var i = 0;
+while (i<kk.length) {
+  document.write('<li>'+ kk[i] +'</li>');
+  i++;
+}
+</script>
+
+
+
+  </body>
+</html>
